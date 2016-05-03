@@ -19,7 +19,7 @@
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.db_time=1;
-    NSLog(@"1111");
+    NSLog(@"123123");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
