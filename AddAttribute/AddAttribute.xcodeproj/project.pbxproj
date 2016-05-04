@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7E2B00A1CD9CC8C005CE308 /* DBObjcet.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E2B0091CD9CC8C005CE308 /* DBObjcet.m */; settings = {ASSET_TAGS = (); }; };
 		F7FE627A1CD893D300DC4B2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FE62791CD893D300DC4B2F /* main.m */; };
 		F7FE627D1CD893D300DC4B2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FE627C1CD893D300DC4B2F /* AppDelegate.m */; };
 		F7FE62801CD893D300DC4B2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FE627F1CD893D300DC4B2F /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F7E2B0081CD9CC8C005CE308 /* DBObjcet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBObjcet.h; sourceTree = "<group>"; };
+		F7E2B0091CD9CC8C005CE308 /* DBObjcet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBObjcet.m; sourceTree = "<group>"; };
 		F7FE62751CD893D300DC4B2F /* AddAttribute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddAttribute.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7FE62791CD893D300DC4B2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7FE627B1CD893D300DC4B2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				F7FE627F1CD893D300DC4B2F /* ViewController.m */,
 				F7FE62AB1CD8940C00DC4B2F /* UIControl+DBButton.h */,
 				F7FE62AC1CD8940C00DC4B2F /* UIControl+DBButton.m */,
+				F7E2B0081CD9CC8C005CE308 /* DBObjcet.h */,
+				F7E2B0091CD9CC8C005CE308 /* DBObjcet.m */,
 				F7FE62811CD893D300DC4B2F /* Main.storyboard */,
 				F7FE62841CD893D300DC4B2F /* Assets.xcassets */,
 				F7FE62861CD893D300DC4B2F /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7FE62801CD893D300DC4B2F /* ViewController.m in Sources */,
+				F7E2B00A1CD9CC8C005CE308 /* DBObjcet.m in Sources */,
 				F7FE627D1CD893D300DC4B2F /* AppDelegate.m in Sources */,
 				F7FE627A1CD893D300DC4B2F /* main.m in Sources */,
 				F7FE62AD1CD8940C00DC4B2F /* UIControl+DBButton.m in Sources */,
@@ -502,6 +508,7 @@
 				F7FE62A41CD893D300DC4B2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7FE62A51CD893D300DC4B2F /* Build configuration list for PBXNativeTarget "AddAttributeTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +517,7 @@
 				F7FE62A71CD893D300DC4B2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7FE62A81CD893D300DC4B2F /* Build configuration list for PBXNativeTarget "AddAttributeUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +526,7 @@
 				F7FE62AA1CD893D300DC4B2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
