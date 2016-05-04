@@ -25,6 +25,7 @@
     
     [self tryAddingFunction];
     [self tryMemberFunc];
+    [self tryMethodExchange];
     // Do any additional setup after loading the view, typically from a nib.
 }
 //获取类的属性包括私有的 并修改
@@ -77,8 +78,8 @@
     Method method1 = class_getInstanceMethod([NSString class], @selector(lowercaseString));
     Method method2 = class_getInstanceMethod([NSString class], @selector(uppercaseString));
     method_exchangeImplementations(method1, method2);
-    NSLog(@"lowcase of WENG zilin:%@", [@"WENG zilin" lowercaseString]);
-    NSLog(@"uppercase of WENG zilin:%@", [@"WENG zilin" uppercaseString]);
+    NSLog(@"lowcase of DENG bin:%@", [@"DENG bin" lowercaseString]);
+    NSLog(@"uppercase of DENG bin:%@", [@"DENG bin" uppercaseString]);
 }
 
 
